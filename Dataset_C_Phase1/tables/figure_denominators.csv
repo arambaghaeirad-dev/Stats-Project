@@ -1,0 +1,6 @@
+figure,population,denominator,group_order,png,svg
+01,principal_joint,984,"1,2,3,4",01_group_counts.png,01_group_counts.svg
+02,principal_joint,984,"1,2,3,4",02_moca_hist.png,02_moca_hist.svg
+03,principal_joint,984,"1,2,3,4",03_thickness_hist.png,03_thickness_hist.svg
+04,principal_joint,984,"1,2,3,4",04_moca_box.png,04_moca_box.svg
+05,principal_joint,984,"1,2,3,4",05_thickness_box.png,05_thickness_box.svg

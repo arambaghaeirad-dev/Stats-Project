@@ -1,0 +1,9 @@
+﻿modality,variable,total,explicit_na,unavailable_after_rule,unavailable_pct,valid_n,rule
+UDS,NACCUDSD,1237,0,0,0,1237,کدهای ۱،۲،۳،۴؛ بدون گردکردن
+UDS,MOCATOTS,1237,0,253,20.452708,984,عدد صحیح ۰ تا ۳۰؛ اعشاری حل‌نشده کنار گذاشته شده
+UDS,NACCAGE,1237,0,0,0,1237,۱۸ تا ۱۲۰، متناهی
+UDS,SEX,1237,0,0,0,1237,کدهای ۱ و ۲
+UDS,EDUC,1237,0,2,0.16168149,1235,سال صحیح ۰ تا ۳۶؛ ۹۹ نامعلوم
+MRI,LH_ENTORHINAL_AVGTH,1237,0,0,0,1237,متناهی و مثبت؛ نقاط افراطی معتبر حفظ می‌شوند
+MRI,RH_ENTORHINAL_AVGTH,1237,0,0,0,1237,متناهی و مثبت؛ نقاط افراطی معتبر حفظ می‌شوند
+MRI,ENTORHINAL_BILATERAL_MEAN,1237,0,0,0,1237,میانگین فقط با دو نیمکرهٔ معتبر
