@@ -1,0 +1,12 @@
+{
+  "identifier_and_cardinality": "passed",
+  "set_reconciliation": "passed",
+  "exclusion_reconciliation": "passed",
+  "bilateral_requires_both": "passed",
+  "integer_moca_rule": "passed",
+  "original_checksums_unchanged": "passed",
+  "no_inference": "descriptive pipeline only",
+  "python": "3.12.14",
+  "pandas": "2.2.3",
+  "numpy": "2.3.5"
+}

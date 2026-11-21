@@ -1,0 +1,9 @@
+﻿population,variable,valid_n,lower_fence,upper_fence,flagged_n,action
+linked,MOCA_CLEAN,984,14.5,34.5,48,review; retained
+linked,ENTORHINAL_BILATERAL_MEAN,1237,2.129,3.925,22,review; retained
+linked,LH_ENTORHINAL_AVGTH_CLEAN,1237,2.0655,3.9255,28,review; retained
+linked,RH_ENTORHINAL_AVGTH_CLEAN,1237,2.153,4.017,30,review; retained
+principal,MOCA_CLEAN,984,14.5,34.5,48,review; retained
+principal,ENTORHINAL_BILATERAL_MEAN,984,2.1223125,3.9348125,13,review; retained
+principal,LH_ENTORHINAL_AVGTH_CLEAN,984,2.038625,3.945625,19,review; retained
+principal,RH_ENTORHINAL_AVGTH_CLEAN,984,2.133375,4.036375,18,review; retained

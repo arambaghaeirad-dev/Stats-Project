@@ -1,0 +1,18 @@
+{
+  "uds_rows": 1237,
+  "mri_rows": 1237,
+  "uds_unique": 1237,
+  "mri_unique": 1237,
+  "shared": 1237,
+  "uds_only": 0,
+  "mri_only": 0,
+  "disagreement": 0,
+  "selected": 1237,
+  "linked": 1237,
+  "principal": 984,
+  "extended": 1228,
+  "special_moca": 4,
+  "fractional_inrange": 244,
+  "out_of_range_non_special": 5,
+  "educ99": 2
+}

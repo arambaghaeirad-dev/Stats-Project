@@ -1,0 +1,5 @@
+﻿file,logical_name,size_bytes,sha256,rows,columns
+udslong_imputed(7).csv,udslong_imputed,926382,8bcd0180d1b593092f7b2f7777281f59c4a6e9c3b2b041b5d2a33ed13be55e63,1237,180
+mriscanclean(7).csv,mriscanclean,871269,3a2b34f7902592705f75ce3ad4c4fab68880470f01e7b9eb9823a799dc092e72,1237,126
+combined_adjacency_matrix(7).csv,combined_adjacency_matrix,10633,f7a0ed04de23f8e2c91555376f839d0fcbcf9a20d24f4c294b76ef18bc470671,62,63
+amarpr(7).pdf,amarpr,140929,ede1706ab440f1ae737a71afaf0a37438112e7b010e6a5118b8f334b4c0d03e3,,

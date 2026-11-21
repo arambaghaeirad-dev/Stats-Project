@@ -1,0 +1,13 @@
+{
+  "shape": [
+    62,
+    62
+  ],
+  "labels_match": true,
+  "binary": true,
+  "symmetric": true,
+  "diagonal_ones": 62,
+  "ones": 526,
+  "no_participant_key": true,
+  "documented_purpose": "unknown; structural region matrix; excluded from participant merge"
+}

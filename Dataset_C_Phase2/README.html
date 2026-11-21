@@ -1,0 +1,46 @@
+<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><title>README</title><style>@font-face {font-family:"B Nazanin";src:url("assets/fonts/B-NAZANIN.TTF") format("truetype");font-weight:400;font-style:normal;}
+body{font-family:"B Nazanin","DejaVu Sans",sans-serif;direction:rtl;text-align:right;color:#111111;background:white;line-height:1.82;font-size:18px;max-width:1100px;margin:32px auto;padding:0 22px}h1,h2{color:#000000}h3{color:#000000}table{border-collapse:collapse;width:100%;font-size:.9em;margin:1em 0}th{background:#eeeeee;color:#000000}td,th{padding:6px;border-bottom:1px solid #cccccc;vertical-align:top}code,pre{font-family:"B Nazanin","DejaVu Sans Mono",monospace;direction:ltr;text-align:left;unicode-bidi:embed}pre{white-space:pre-wrap;overflow-wrap:anywhere}a{color:#111111}img{max-width:100%;height:auto}nav{padding:12px;border-bottom:1px solid #999}table{overflow-wrap:anywhere} @media(max-width:650px){body{font-size:17px;margin:15px auto;padding:0 12px}table{font-size:13px}}</style></head><body><h1>فاز دوم پروژهٔ آمار — NACC UDS + MRI</h1>
+<p>آرام بقائی راد | شمارهٔ دانشجویی: ۴۰۳۱۰۰۰۷۶</p>
+<p>این بسته شامل گزارش، کد، نوتبوک اجراشده، جدول‌ها، شکل‌ها و مستندات فاز دوم است.</p>
+<table>
+<thead>
+<tr>
+<th>بخش</th>
+<th>دسترسی</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>گزارش</td>
+<td><a href="reports/phase2.pdf">PDF فاز دوم</a> · <a href="reports/phase2.html">HTML فاز دوم</a></td>
+</tr>
+<tr>
+<td>نوتبوک</td>
+<td><a href="notebooks/phase2.html">نسخهٔ اجراشده</a> · <a href="notebooks/phase2.ipynb">فایل Jupyter</a></td>
+</tr>
+<tr>
+<td>الزامات</td>
+<td><a href="docs/PHASE2_REQUIREMENT_COVERAGE.html">پوشش ۱۴ تکلیف</a></td>
+</tr>
+<tr>
+<td>روش و دفاع</td>
+<td><a href="docs/PHASE2_METHODS.html">روش‌ها</a> · <a href="docs/PHASE2_STUDY_GUIDE.html">مرور و دفاع</a></td>
+</tr>
+<tr>
+<td>اجرا و تحویل</td>
+<td><a href="docs/PHASE2_SUBMISSION.html">راهنما</a></td>
+</tr>
+<tr>
+<td>کنترل کیفیت</td>
+<td><a href="docs/PHASE2_QA.html">نتیجهٔ بررسی</a></td>
+</tr>
+</tbody>
+</table>
+<h2>اجرای کامل</h2>
+<p>چهار فایل ورودی amarpr.pdf، udslong_imputed.csv، mriscanclean.csv و combined_adjacency_matrix.csv را در data/raw قرار دهید؛ پسوند بارگذاری مانند (9) پذیرفته می‌شود. دادهٔ خام مطابق دستورالعمل استاد داخل ZIP نیست.</p>
+<pre><code class="language-bash">python -m pip install -r requirements.txt
+python src/phase2_analysis.py --data-dir data/raw --execute-notebook
+python src/phase2_validate.py
+</code></pre>
+<p>Python 3.11 یا بالاتر و کتابخانه‌های متن Pango برای WeasyPrint لازم‌اند. برای مسیر ورودی دیگر، مقدار --data-dir را تغییر دهید. نوتبوک به ترتیب با اجرای واقعی سلول‌ها در IPython بازتولید می‌شود. متغیر NACC_DATA_DIR مسیر داده را برای اجرای دستی نوتبوک مشخص می‌کند. خروجی مستقل در پوشهٔ خالی با --out-dir قابل ساخت است.</p>
+<p>گزارش فارسی با B Nazanin و قالب سیاه‌وسفید است. برچسب phase-2 در بستهٔ محلی Git موجود است؛ انتشار GitHub و ارسال CW در این جلسه انجام نشده‌اند.</p></body></html>

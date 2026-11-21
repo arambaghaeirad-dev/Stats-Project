@@ -1,0 +1,13 @@
+﻿population,variable,code,label,n,denominator,percent
+supplied,GROUP,1,شناخت طبیعی,847,1237,68.47211
+supplied,GROUP,2,اختلال شناختی، غیر MCI,7,1237,0.56588521
+supplied,GROUP,3,اختلال شناختی خفیف (MCI),252,1237,20.371867
+supplied,GROUP,4,دمانس,131,1237,10.590137
+supplied,SEX_CLEAN,1,مرد (کد ۱),497,1237,40.17785
+supplied,SEX_CLEAN,2,زن (کد ۲),740,1237,59.82215
+principal,GROUP,1,شناخت طبیعی,636,984,64.634146
+principal,GROUP,2,اختلال شناختی، غیر MCI,4,984,0.40650407
+principal,GROUP,3,اختلال شناختی خفیف (MCI),226,984,22.96748
+principal,GROUP,4,دمانس,118,984,11.99187
+principal,SEX_CLEAN,1,مرد (کد ۱),391,984,39.735772
+principal,SEX_CLEAN,2,زن (کد ۲),593,984,60.264228

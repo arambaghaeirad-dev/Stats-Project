@@ -1,0 +1,14 @@
+{
+  "input_sha256": {
+    "udslong_imputed": "8bcd0180d1b593092f7b2f7777281f59c4a6e9c3b2b041b5d2a33ed13be55e63",
+    "mriscanclean": "3a2b34f7902592705f75ce3ad4c4fab68880470f01e7b9eb9823a799dc092e72",
+    "combined_adjacency_matrix": "f7a0ed04de23f8e2c91555376f839d0fcbcf9a20d24f4c294b76ef18bc470671",
+    "amarpr": "ede1706ab440f1ae737a71afaf0a37438112e7b010e6a5118b8f334b4c0d03e3"
+  },
+  "n": 984,
+  "means": {
+    "MOCA_CLEAN": 24.0284552846,
+    "ENTORHINAL_BILATERAL_MEAN": 3.01428760163
+  },
+  "note": "اثر انگشت ورودی‌ها و مقادیر کنترل بازتولید تحلیل فاز دوم."
+}

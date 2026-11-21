@@ -1,0 +1,33 @@
+<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><title>README</title><style>@font-face {font-family:"B Nazanin";src:url("assets/fonts/B-NAZANIN.TTF") format("truetype");font-weight:400;font-style:normal;}
+body{font-family:"B Nazanin","DejaVu Sans",sans-serif;direction:rtl;text-align:right;color:#111111;background:white;line-height:1.82;font-size:18px;max-width:1100px;margin:32px auto;padding:0 22px}h1,h2{color:#000000}h3{color:#000000}table{border-collapse:collapse;width:100%;font-size:.9em;margin:1em 0}th{background:#eeeeee;color:#000000}td,th{padding:6px;border-bottom:1px solid #cccccc;vertical-align:top}code,pre{font-family:"B Nazanin","DejaVu Sans Mono",monospace;direction:ltr;text-align:left;unicode-bidi:embed}pre{white-space:pre-wrap;overflow-wrap:anywhere}a{color:#111111}img{max-width:100%;height:auto}</style></head><body><h1>فاز اول آمار — Dataset C: NACC UDS + MRI</h1>
+<p>این بسته شامل تحلیل توصیفی اجراشده، گزارش فارسی، پنج شکل PNG و SVG، جدول‌های تجمیعی، نوتبوک اجراشده، فرهنگ منتخب، موجودی همهٔ ستون‌ها و راهنمای دفاع است. سؤال دقیق و قواعد در PROJECT_CARD.md آمده‌اند. فقط فاز اول انجام شده است.</p>
+<h2>اجرای بازتولید</h2>
+<p>Python 3.11 یا بالاتر پیشنهاد می‌شود. روی Linux برای PDF به Pango و فونت DejaVu Sans نیاز است؛ نصب سیستم‌عامل نمونه در Debian/Ubuntu: <code>sudo apt install libpango-1.0-0 libpangoft2-1.0-0 fonts-dejavu-core</code>. مستندات نصب WeasyPrint برای سیستم‌عامل دیگر را ببینید. با نبود قابلیت PDF، مسیر <code>--skip-pdf</code> آمار، شکل و منبع گزارش را بازتولید می‌کند.</p>
+<p>نوتبوک در این محیط با اجرای واقعی و متوالی سلول‌ها در IPython و ثبت خروجی‌ها اجرا شده است؛ برای اجرای دوباره به ارتباط شبکه‌ای کرنل نیاز ندارد.</p>
+<p>از ریشهٔ بسته:</p>
+<pre><code class="language-bash">python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python src/run.py --data-dir data/raw --execute-notebook
+</code></pre>
+<p>چهار فایل مجاز را در <code>data/raw/</code> قرار دهید: <code>amarpr.pdf</code>, <code>udslong_imputed.csv</code>, <code>mriscanclean.csv</code>, <code>combined_adjacency_matrix.csv</code>. کد پسوندهایی مانند <code>(7)</code> و پیشوند <code>01-</code> را می‌پذیرد، اما اگر چند نسخهٔ هم‌نام موجود باشد متوقف می‌شود. ورودی‌ها هیچ‌گاه بازنویسی نمی‌شوند. مسیر دیگر را با <code>--data-dir /path/to/authorized/files</code> مشخص کنید. این مسیر تنظیمی است و هیچ داده‌ای دانلود نمی‌شود.</p>
+<p>برای خروجی مستقل و پاک:</p>
+<pre><code class="language-bash">python src/run.py --data-dir data/raw --out-dir ../phase1_clean --execute-notebook
+</code></pre>
+<p>برای اجرای جداگانهٔ نوتبوک، متغیر محیطی <code>NACC_DATA_DIR</code> را روی پوشهٔ ورودی بگذارید و از ریشهٔ بسته یا پوشهٔ notebooks اجرا کنید. مسیر دادهٔ استفاده‌شده در این جلسه در کد نوتبوک سخت‌نویسی نشده است. فایل <code>src/execute_notebook.py</code> اجرای بدون رابط را فراهم می‌کند.</p>
+<h2>فایل‌ها و ترتیب محاسبه</h2>
+<ul>
+<li><code>src/definitions.py</code>: تعاریف، اعتبار متغیرها و شاخص دوطرفه.</li>
+<li><code>src/analysis.py</code>: ممیزی، اتصال، جریان افراد و جدول‌های تجمیعی.</li>
+<li><code>src/plots.py</code>: پنج نمودار، همگی در یک نمونهٔ اصلی مشترک.</li>
+<li><code>src/report.py</code>: گزارش فارسی و تبدیل به PDF؛ متن قابل ویرایش در <code>reports/phase1.md</code> و HTML.</li>
+<li><code>src/documentation.py</code>: کارت، راهنماها و پوشش الزامات.</li>
+<li><code>src/run.py</code>: اجرای کل زنجیره؛ خروجی پیش‌فرض ریشهٔ بسته است.</li>
+<li><code>notebooks/phase1_executed.ipynb</code>: توضیح فارسی همراه خروجی اجراشده.</li>
+<li><code>tables/07_overall.csv</code> و <code>08_by_group.csv</code>: جمعیت اصلی، دسترسی متغیر به متغیر و تکمیلی مشروط با برچسب جدا.</li>
+<li><code>docs/qa_analysis.json</code>, <code>docs/QA_DELIVERY.md</code>: کنترل‌های تحلیلی و تحویل.</li>
+</ul>
+<p>آمارهای اصلی روی MoCA صحیح ۰ تا ۳۰ محاسبه می‌شود. اعشار داخل دامنه بدون گردکردن فقط در خلاصهٔ تکمیلیِ مشروط حفظ می‌شوند؛ کد ۸۸ و مقادیر خارج دامنه نمره نیستند. هیچ جایگذاری جدید، حذف IQR، آزمون فرض، p-value، فاصلهٔ اطمینان، رگرسیون یا یادگیری ماشین اجرا نشده است. تمام خروجی‌ها تجمیعی‌اند؛ فایل تحلیلی فردی ذخیره نمی‌شود.</p>
+<h2>وضعیت اطلاعات و اقدام‌های باقی‌مانده</h2>
+<p>فرهنگ اختصاصی و دستورالعمل آماده‌سازیِ وعده‌داده‌شده در PDF استاد موجود نبود. تعاریف با مستندات عمومی NACC تطبیق یافتند؛ منشأ اعشار، روش جایگذاری، تاریخ‌ها و انطباق زمانی حل‌نشده‌اند. شمار تاریخی مراجعات قابل محاسبه نیست. گزارش، این موارد را پنهان نمی‌کند. جدول تکمیلی اعشاری مشروط است.</p>
+<p>راهنمای ارسال و تعارض‌های دستور کار در <code>docs/SUBMISSION_FA.md</code> آمده است. مخزن GitHub، تاریخچهٔ commit، برچسب و ارسال CW در این جلسه ساخته یا انجام نشده‌اند. الزامات فردی‌بودن پروژه و توانایی دفاع در دستورالعمل استاد باید رعایت شود؛ این بسته نباید به‌عنوان ادعای انجام مستقلِ مراحل دریافت‌شده ارائه شود.</p></body></html>

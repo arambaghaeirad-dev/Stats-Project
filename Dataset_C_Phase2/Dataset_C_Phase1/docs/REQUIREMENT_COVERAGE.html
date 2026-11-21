@@ -1,0 +1,342 @@
+<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><title>REQUIREMENT_COVERAGE</title><style>@font-face {font-family:"B Nazanin";src:url("../assets/fonts/B-NAZANIN.TTF") format("truetype");font-weight:400;font-style:normal;}
+body{font-family:"B Nazanin","DejaVu Sans",sans-serif;direction:rtl;text-align:right;color:#111111;background:white;line-height:1.82;font-size:18px;max-width:1100px;margin:32px auto;padding:0 22px}h1,h2{color:#000000}h3{color:#000000}table{border-collapse:collapse;width:100%;font-size:.9em;margin:1em 0}th{background:#eeeeee;color:#000000}td,th{padding:6px;border-bottom:1px solid #cccccc;vertical-align:top}code,pre{font-family:"B Nazanin","DejaVu Sans Mono",monospace;direction:ltr;text-align:left;unicode-bidi:embed}pre{white-space:pre-wrap;overflow-wrap:anywhere}a{color:#111111}img{max-width:100%;height:auto}</style></head><body><h1>پوشش الزامات</h1>
+<p>وضعیت‌ها به اجرای محلی اشاره دارند؛ تحویل بیرونی انجام نشده است.</p>
+<table>
+<thead>
+<tr>
+<th>id</th>
+<th>requirement</th>
+<th>work_performed</th>
+<th>report_section</th>
+<th>supporting_file</th>
+<th>status</th>
+<th>limitation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T1</td>
+<td>منشأ و سازوکار</td>
+<td>تفکیک NACC از زیرمجموعه و ذکر مجهولات</td>
+<td>۲</td>
+<td>docs/SOURCES.md</td>
+<td>provisional</td>
+<td>دوره و روش تهیهٔ زیرمجموعه معلوم نیست</td>
+</tr>
+<tr>
+<td>T2</td>
+<td>واحد و ساختار</td>
+<td>شمارش شناسه و رکورد؛ تاریخچه قابل بازیابی نیست</td>
+<td>۳</td>
+<td>tables/03_structure.csv</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>T3</td>
+<td>نمونه‌گیری و تعمیم</td>
+<td>مشاهده‌ای و غیرتصادفی؛ دامنهٔ تفسیر محدود</td>
+<td>۲</td>
+<td>PROJECT_CARD.md</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>T4</td>
+<td>نوع و مقیاس متغیر</td>
+<td>فرهنگ منتخب با نقش و واحد</td>
+<td>۴</td>
+<td>tables/02_selected_dictionary.csv</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>T5</td>
+<td>ممیزی کیفیت</td>
+<td>تهی، کد ویژه، اعشار، دامنه و تکرار</td>
+<td>۵</td>
+<td>tables/04_cleaning_log.csv</td>
+<td>completed</td>
+<td>عدم قطعیت آماده‌سازی مستند است</td>
+</tr>
+<tr>
+<td>T6</td>
+<td>فراوانی و توزیع تجربی</td>
+<td>تعداد، درصد، مخرج و توزیع تجمعی</td>
+<td>۷</td>
+<td>tables/06_empirical_distributions.csv</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>T7</td>
+<td>مرکز و پراکندگی</td>
+<td>تمام شاخص‌ها با n و ناموجود</td>
+<td>۸</td>
+<td>tables/07_overall.csv</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>T8</td>
+<td>حداقل چهار شکل</td>
+<td>پنج PNG و SVG با زیرنویس</td>
+<td>۷–۹</td>
+<td>tables/figure_denominators.csv</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>T9</td>
+<td>مقایسهٔ توصیفی</td>
+<td>دو سنجه در چهار گروه</td>
+<td>۹</td>
+<td>tables/08_by_group.csv</td>
+<td>completed</td>
+<td>گروه کوچک حفظ شده است</td>
+</tr>
+<tr>
+<td>T10</td>
+<td>نهایی‌کردن سؤال</td>
+<td>حفظ عبارت ثابت و تعریف جمعیت</td>
+<td>۱ و ۱۱</td>
+<td>PROJECT_CARD.md</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>C1</td>
+<td>نقشهٔ دو وجه</td>
+<td>موجودی همهٔ ستون‌ها و فرهنگ منتخب</td>
+<td>۳–۴</td>
+<td>tables/02_all_variable_inventory.csv</td>
+<td>provisional</td>
+<td>فرهنگ اختصاصی تحویل نشده؛ تعریف نام‌های منتخب با منبع عمومی تطبیق یافت</td>
+</tr>
+<tr>
+<td>C2</td>
+<td>فرد و مراجعه</td>
+<td>توزیع تعداد رکورد و قاعدهٔ توقف روی تکرار</td>
+<td>۳</td>
+<td>tables/03_record_count_distribution.csv</td>
+<td>completed</td>
+<td>تعداد تاریخی مراجعات قابل ارزیابی نیست</td>
+</tr>
+<tr>
+<td>C3</td>
+<td>اتصال دو وجه</td>
+<td>کنترل یک‌به‌یک، توافق کد و جریان افراد</td>
+<td>۶</td>
+<td>tables/05_linkage_flow.csv</td>
+<td>provisional</td>
+<td>کلید و قاعدهٔ زمانی اختصاصی در دسترس نیست</td>
+</tr>
+<tr>
+<td>C4</td>
+<td>گمشدگی و انتخاب چندوجهی</td>
+<td>ممیزی قبل و بعد؛ تصریح نبود فاقد MRI</td>
+<td>۵،۶ و ۱۰</td>
+<td>tables/04_missingness.csv</td>
+<td>completed</td>
+<td>مقایسهٔ MRI/بدون MRI قابل ارزیابی نیست</td>
+</tr>
+<tr>
+<td>C5</td>
+<td>خلاصهٔ مشترک</td>
+<td>MoCA و ضخامت با آمار و شکل</td>
+<td>۸–۱۰</td>
+<td>tables/08_by_group.csv</td>
+<td>completed</td>
+<td>تکمیلی اعشاری مشروط است</td>
+</tr>
+<tr>
+<td>CARD1</td>
+<td>مسیر و زیرمجموعه</td>
+<td>جزء جداگانه در کارت</td>
+<td>۱،۳،۴ و ۱۱</td>
+<td>PROJECT_CARD.md</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>CARD2</td>
+<td>فایل‌های دقیق</td>
+<td>جزء جداگانه در کارت</td>
+<td>۱،۳،۴ و ۱۱</td>
+<td>PROJECT_CARD.md</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>CARD3</td>
+<td>عنوان خنثی</td>
+<td>جزء جداگانه در کارت</td>
+<td>۱،۳،۴ و ۱۱</td>
+<td>PROJECT_CARD.md</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>CARD4</td>
+<td>سؤال دقیق فارسی</td>
+<td>جزء جداگانه در کارت</td>
+<td>۱،۳،۴ و ۱۱</td>
+<td>PROJECT_CARD.md</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>CARD5</td>
+<td>واحد مشاهده</td>
+<td>جزء جداگانه در کارت</td>
+<td>۱،۳،۴ و ۱۱</td>
+<td>PROJECT_CARD.md</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>CARD6</td>
+<td>جمعیت قابل تفسیر</td>
+<td>جزء جداگانه در کارت</td>
+<td>۱،۳،۴ و ۱۱</td>
+<td>PROJECT_CARD.md</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>CARD7</td>
+<td>متغیر و مقیاس</td>
+<td>جزء جداگانه در کارت</td>
+<td>۱،۳،۴ و ۱۱</td>
+<td>PROJECT_CARD.md</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>CARD8</td>
+<td>نقش متغیرها</td>
+<td>جزء جداگانه در کارت</td>
+<td>۱،۳،۴ و ۱۱</td>
+<td>PROJECT_CARD.md</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>CARD9</td>
+<td>نوع سؤال</td>
+<td>جزء جداگانه در کارت</td>
+<td>۱،۳،۴ و ۱۱</td>
+<td>PROJECT_CARD.md</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>CARD10</td>
+<td>فرضیهٔ آزمون‌نشده</td>
+<td>جزء جداگانه در کارت</td>
+<td>۱،۳،۴ و ۱۱</td>
+<td>PROJECT_CARD.md</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>CARD11</td>
+<td>حداقل دو محدودیت</td>
+<td>جزء جداگانه در کارت</td>
+<td>۱،۳،۴ و ۱۱</td>
+<td>PROJECT_CARD.md</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>REPORT</td>
+<td>گزارش فارسی قابل ویرایش و PDF</td>
+<td>متن، جدول، شکل و منابع</td>
+<td>۱۲ / پیوست</td>
+<td>reports/phase1.pdf</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>CODE</td>
+<td>کد ماژولار و محیط</td>
+<td>اسکریپت‌ها و requirements</td>
+<td>۱۲ / پیوست</td>
+<td>src/run.py</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>NOTEBOOK</td>
+<td>نوتبوک اجراشده</td>
+<td>اجرا بدون خروجی شناسه فردی</td>
+<td>۱۲ / پیوست</td>
+<td>notebooks/phase1_executed.ipynb</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>REPRO</td>
+<td>بازتولید و checksum</td>
+<td>مسیر تنظیمی، قواعد و کنترل‌ها</td>
+<td>۱۲ / پیوست</td>
+<td>README.md</td>
+<td>completed</td>
+<td></td>
+</tr>
+<tr>
+<td>GITHUB</td>
+<td>مخزن و تاریخچه واقعی</td>
+<td>راهنما آماده؛ ارسال انجام نشده</td>
+<td>۱۲ / پیوست</td>
+<td>docs/SUBMISSION_FA.md</td>
+<td>not assessable from the supplied material</td>
+<td>مخزن و دسترسی مشخص نشده است</td>
+</tr>
+<tr>
+<td>TAG</td>
+<td>برچسب phase-1</td>
+<td>دستور ساخت پس از بازبینی</td>
+<td>۱۲ / پیوست</td>
+<td>docs/SUBMISSION_FA.md</td>
+<td>not assessable from the supplied material</td>
+<td>ساخته نشده است</td>
+</tr>
+<tr>
+<td>CW</td>
+<td>ZIP و ارسال CW</td>
+<td>ZIP آماده؛ بارگذاری انجام نشده</td>
+<td>۱۲ / پیوست</td>
+<td>docs/SUBMISSION_FA.md</td>
+<td>provisional</td>
+<td>کاربر باید ارسال کند</td>
+</tr>
+<tr>
+<td>DEFENSE</td>
+<td>راهنمای دفاع</td>
+<td>توضیح مفاهیم و قواعد</td>
+<td>۱۲ / پیوست</td>
+<td>docs/STUDY_GUIDE_FA.md</td>
+<td>completed</td>
+<td>دفاع واقعی و تسلط شخصی قابل ارزیابی نیست</td>
+</tr>
+<tr>
+<td>C2HISTORY</td>
+<td>تعداد مراجعات تاریخی</td>
+<td>محدودیت صریح</td>
+<td>۱۲ / پیوست</td>
+<td>tables/03_structure.csv</td>
+<td>not assessable from the supplied material</td>
+<td>تاریخ و شماره مراجعه موجود نیست</td>
+</tr>
+<tr>
+<td>C4COMPARISON</td>
+<td>مقایسهٔ با/بدون MRI</td>
+<td>نبود گروه فاقد MRI مستند شد</td>
+<td>۱۲ / پیوست</td>
+<td>tables/05_linkage_flow.csv</td>
+<td>not assessable from the supplied material</td>
+<td>همهٔ افراد UDS با MRI پیوند می‌یابند</td>
+</tr>
+</tbody>
+</table></body></html>

@@ -1,0 +1,57 @@
+﻿population,group,group_label,variable,n,missing,mean,median,sd,q1,q3,iqr,min,max
+linked_variable_available,1,شناخت طبیعی,MOCA_CLEAN,636,211,26.130503,26,2.542913,25,28,3,10,30
+linked_variable_available,1,شناخت طبیعی,LH_ENTORHINAL_AVGTH_CLEAN,847,0,3.0457107,3.069,0.33632178,2.862,3.264,0.402,0.878,3.904
+linked_variable_available,1,شناخت طبیعی,RH_ENTORHINAL_AVGTH_CLEAN,847,0,3.1320874,3.15,0.33757807,2.945,3.3605,0.4155,1.495,3.967
+linked_variable_available,1,شناخت طبیعی,ENTORHINAL_BILATERAL_MEAN,847,0,3.0888991,3.103,0.3035511,2.92575,3.29525,0.3695,1.214,3.858
+linked_variable_available,1,شناخت طبیعی,AGE_CLEAN,847,0,67.271547,67,7.9155967,63,72,9,41,90
+linked_variable_available,1,شناخت طبیعی,EDUC_CLEAN,846,1,16.381797,16,2.6130487,15,18,3,1,25
+linked_variable_available,2,اختلال شناختی، غیر MCI,MOCA_CLEAN,4,3,25.5,26,3.4156503,24,27.5,3.5,21,29
+linked_variable_available,2,اختلال شناختی، غیر MCI,LH_ENTORHINAL_AVGTH_CLEAN,7,0,3.1557143,3.26,0.34727161,3.0945,3.334,0.2395,2.45,3.523
+linked_variable_available,2,اختلال شناختی، غیر MCI,RH_ENTORHINAL_AVGTH_CLEAN,7,0,3.3302857,3.376,0.19217849,3.21,3.4725,0.2625,3.027,3.544
+linked_variable_available,2,اختلال شناختی، غیر MCI,ENTORHINAL_BILATERAL_MEAN,7,0,3.243,3.188,0.18223085,3.132,3.3685,0.2365,2.997,3.515
+linked_variable_available,2,اختلال شناختی، غیر MCI,AGE_CLEAN,7,0,69.428571,69,4.0766466,67,71.5,4.5,64,76
+linked_variable_available,2,اختلال شناختی، غیر MCI,EDUC_CLEAN,7,0,16.857143,16,1.069045,16,18,2,16,18
+linked_variable_available,3,اختلال شناختی خفیف (MCI),MOCA_CLEAN,226,26,22.300885,23,3.3820045,20,25,5,10,30
+linked_variable_available,3,اختلال شناختی خفیف (MCI),LH_ENTORHINAL_AVGTH_CLEAN,252,0,2.8633214,2.92,0.4315974,2.594,3.1625,0.5685,1.276,3.979
+linked_variable_available,3,اختلال شناختی خفیف (MCI),RH_ENTORHINAL_AVGTH_CLEAN,252,0,2.9528214,3.0135,0.49277603,2.75825,3.26775,0.5095,0.729,3.871
+linked_variable_available,3,اختلال شناختی خفیف (MCI),ENTORHINAL_BILATERAL_MEAN,252,0,2.9080714,2.9655,0.41329275,2.68625,3.186625,0.500375,1.2355,3.925
+linked_variable_available,3,اختلال شناختی خفیف (MCI),AGE_CLEAN,252,0,70.825397,71,7.4428279,66,76,10,45,91
+linked_variable_available,3,اختلال شناختی خفیف (MCI),EDUC_CLEAN,251,1,16.087649,16,2.9312603,14,18,4,0,20
+linked_variable_available,4,دمانس,MOCA_CLEAN,118,13,15.957627,17,5.9805869,12.25,21,8.75,0,30
+linked_variable_available,4,دمانس,LH_ENTORHINAL_AVGTH_CLEAN,131,0,2.6738702,2.67,0.38998624,2.433,2.952,0.519,1.751,3.652
+linked_variable_available,4,دمانس,RH_ENTORHINAL_AVGTH_CLEAN,131,0,2.7641756,2.747,0.41292423,2.483,3.083,0.6,1.379,3.576
+linked_variable_available,4,دمانس,ENTORHINAL_BILATERAL_MEAN,131,0,2.7190229,2.6905,0.35474592,2.461,2.945,0.484,1.7465,3.5325
+linked_variable_available,4,دمانس,AGE_CLEAN,131,0,69.015267,70,8.9020177,62,76,14,45,85
+linked_variable_available,4,دمانس,EDUC_CLEAN,131,0,15.748092,16,2.96737,14,18,4,1,20
+principal_joint,1,شناخت طبیعی,MOCA_CLEAN,636,0,26.130503,26,2.542913,25,28,3,10,30
+principal_joint,1,شناخت طبیعی,LH_ENTORHINAL_AVGTH_CLEAN,636,0,3.054478,3.0815,0.32115088,2.87425,3.27325,0.399,1.851,3.904
+principal_joint,1,شناخت طبیعی,RH_ENTORHINAL_AVGTH_CLEAN,636,0,3.1443443,3.1565,0.31838963,2.95725,3.3655,0.40825,1.873,3.967
+principal_joint,1,شناخت طبیعی,ENTORHINAL_BILATERAL_MEAN,636,0,3.0994112,3.1085,0.28620323,2.931125,3.30125,0.370125,2.049,3.858
+principal_joint,1,شناخت طبیعی,AGE_CLEAN,636,0,67.927673,68,7.7983112,63,73,10,41,90
+principal_joint,1,شناخت طبیعی,EDUC_CLEAN,635,1,16.349606,16,2.5616645,15,18,3,1,25
+principal_joint,2,اختلال شناختی، غیر MCI,MOCA_CLEAN,4,0,25.5,26,3.4156503,24,27.5,3.5,21,29
+principal_joint,2,اختلال شناختی، غیر MCI,LH_ENTORHINAL_AVGTH_CLEAN,4,0,3.36275,3.334,0.12463647,3.266,3.43075,0.16475,3.26,3.523
+principal_joint,2,اختلال شناختی، غیر MCI,RH_ENTORHINAL_AVGTH_CLEAN,4,0,3.337,3.407,0.21348068,3.28875,3.45525,0.1665,3.027,3.507
+principal_joint,2,اختلال شناختی، غیر MCI,ENTORHINAL_BILATERAL_MEAN,4,0,3.349875,3.3685,0.15707343,3.275375,3.443,0.167625,3.1475,3.515
+principal_joint,2,اختلال شناختی، غیر MCI,AGE_CLEAN,4,0,69,68.5,2.9439203,67.5,70,2.5,66,73
+principal_joint,2,اختلال شناختی، غیر MCI,EDUC_CLEAN,4,0,16.5,16,1,16,16.5,0.5,16,18
+principal_joint,3,اختلال شناختی خفیف (MCI),MOCA_CLEAN,226,0,22.300885,23,3.3820045,20,25,5,10,30
+principal_joint,3,اختلال شناختی خفیف (MCI),LH_ENTORHINAL_AVGTH_CLEAN,226,0,2.8631903,2.911,0.42593865,2.5975,3.1635,0.566,1.451,3.979
+principal_joint,3,اختلال شناختی خفیف (MCI),RH_ENTORHINAL_AVGTH_CLEAN,226,0,2.9683938,2.986,0.46281261,2.7635,3.27125,0.50775,0.729,3.871
+principal_joint,3,اختلال شناختی خفیف (MCI),ENTORHINAL_BILATERAL_MEAN,226,0,2.915792,2.94925,0.39124193,2.688625,3.183875,0.49525,1.2355,3.925
+principal_joint,3,اختلال شناختی خفیف (MCI),AGE_CLEAN,226,0,71.09292,72,7.3849844,66,76,10,45,91
+principal_joint,3,اختلال شناختی خفیف (MCI),EDUC_CLEAN,225,1,16.146667,16,2.9217167,14,18,4,0,20
+principal_joint,4,دمانس,MOCA_CLEAN,118,0,15.957627,17,5.9805869,12.25,21,8.75,0,30
+principal_joint,4,دمانس,LH_ENTORHINAL_AVGTH_CLEAN,118,0,2.6861356,2.688,0.37816358,2.442,2.95675,0.51475,1.751,3.561
+principal_joint,4,دمانس,RH_ENTORHINAL_AVGTH_CLEAN,118,0,2.7793729,2.781,0.40918501,2.492,3.10275,0.61075,1.379,3.576
+principal_joint,4,دمانس,ENTORHINAL_BILATERAL_MEAN,118,0,2.7327542,2.71325,0.34415875,2.525875,2.95675,0.430875,1.788,3.5325
+principal_joint,4,دمانس,AGE_CLEAN,118,0,68.949153,70.5,9.2031651,61.25,76,14.75,45,85
+principal_joint,4,دمانس,EDUC_CLEAN,118,0,15.889831,16,2.643437,14,18,4,10,20
+extended_provisional,1,شناخت طبیعی,MOCATOTS,842,0,26.174109,26.2,2.3646112,25,28,3,10,30
+extended_provisional,1,شناخت طبیعی,ENTORHINAL_BILATERAL_MEAN,842,0,3.090329,3.10375,0.30341285,2.92825,3.29675,0.3685,1.214,3.858
+extended_provisional,2,اختلال شناختی، غیر MCI,MOCATOTS,7,0,26.257143,26.8,2.6550939,25.8,27.7,1.9,21,29
+extended_provisional,2,اختلال شناختی، غیر MCI,ENTORHINAL_BILATERAL_MEAN,7,0,3.243,3.188,0.18223085,3.132,3.3685,0.2365,2.997,3.515
+extended_provisional,3,اختلال شناختی خفیف (MCI),MOCATOTS,251,0,22.401594,23,3.3766725,20,25,5,10,30
+extended_provisional,3,اختلال شناختی خفیف (MCI),ENTORHINAL_BILATERAL_MEAN,251,0,2.9094661,2.9665,0.41352387,2.69025,3.18675,0.4965,1.2355,3.925
+extended_provisional,4,دمانس,MOCATOTS,128,0,16.479687,17,6.0977001,13,21,8,0,30
+extended_provisional,4,دمانس,ENTORHINAL_BILATERAL_MEAN,128,0,2.7158164,2.6975,0.35163997,2.4645,2.944,0.4795,1.7465,3.5325

@@ -1,0 +1,146 @@
+<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><title>PHASE2_REQUIREMENT_COVERAGE</title><style>@font-face {font-family:"B Nazanin";src:url("../assets/fonts/B-NAZANIN.TTF") format("truetype");font-weight:400;font-style:normal;}
+body{font-family:"B Nazanin","DejaVu Sans",sans-serif;direction:rtl;text-align:right;color:#111111;background:white;line-height:1.82;font-size:18px;max-width:1100px;margin:32px auto;padding:0 22px}h1,h2{color:#000000}h3{color:#000000}table{border-collapse:collapse;width:100%;font-size:.9em;margin:1em 0}th{background:#eeeeee;color:#000000}td,th{padding:6px;border-bottom:1px solid #cccccc;vertical-align:top}code,pre{font-family:"B Nazanin","DejaVu Sans Mono",monospace;direction:ltr;text-align:left;unicode-bidi:embed}pre{white-space:pre-wrap;overflow-wrap:anywhere}a{color:#111111}img{max-width:100%;height:auto}nav{padding:12px;border-bottom:1px solid #999}table{overflow-wrap:anywhere} @media(max-width:650px){body{font-size:17px;margin:15px auto;padding:0 12px}table{font-size:13px}}</style></head><body><h1>پوشش الزامات فاز دوم</h1>
+<p>مرجع: بخش ۶ راهنمای استاد، صفحات ۸ تا ۱۰. G به تکلیف مشترک و C به تکلیف مسیر ج اشاره می‌کند. شمارهٔ بخش مربوط به <code>reports/phase2.pdf</code> و عنوان سلول مربوط به <code>notebooks/phase2.ipynb</code> است.</p>
+<table>
+<thead>
+<tr>
+<th>شماره</th>
+<th>الزام</th>
+<th>بخش گزارش</th>
+<th>بخش کد / نوتبوک</th>
+<th>خروجی</th>
+<th>وضعیت</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>G1</td>
+<td>دو رویداد و متغیر تصادفی</td>
+<td>۴</td>
+<td>src/phase2_analysis.py: analyze: تعریف A، B و threshold؛ رویدادها و فضای احتمال</td>
+<td>tables/p2_results.json</td>
+<td>کامل؛ خروجی و اجرای نوتبوک کنترل شد</td>
+</tr>
+<tr>
+<td>G2</td>
+<td>حاشیه و احتمال مشترک</td>
+<td>۵</td>
+<td>src/phase2_analysis.py: analyze: contingency و probabilities؛ احتمال حاشیه‌ای، مشترک و شرطی</td>
+<td>tables/p2_04_contingency.csv</td>
+<td>کامل؛ خروجی و اجرای نوتبوک کنترل شد</td>
+</tr>
+<tr>
+<td>G3</td>
+<td>حداقل دو احتمال شرطی</td>
+<td>۶</td>
+<td>src/phase2_analysis.py: analyze: prob_rows و ratio؛ احتمال حاشیه‌ای، مشترک و شرطی</td>
+<td>tables/p2_05_probabilities.csv</td>
+<td>کامل؛ خروجی و اجرای نوتبوک کنترل شد</td>
+</tr>
+<tr>
+<td>G4</td>
+<td>استقلال</td>
+<td>۶</td>
+<td>src/phase2_analysis.py: analyze: independence_product و difference؛ استقلال</td>
+<td>figures/p2_01_conditional.png</td>
+<td>کامل؛ خروجی و اجرای نوتبوک کنترل شد</td>
+</tr>
+<tr>
+<td>G5</td>
+<td>گسسته و دوجمله‌ای</td>
+<td>۷</td>
+<td>src/phase2_analysis.py: analyze: binomial و binom؛ مدل شمارش دوجمله‌ای</td>
+<td>tables/p2_10_binomial_pmf.csv</td>
+<td>کامل؛ خروجی و اجرای نوتبوک کنترل شد</td>
+</tr>
+<tr>
+<td>G6</td>
+<td>پیوسته و تقریب نرمال</td>
+<td>۸</td>
+<td>src/phase2_analysis.py: analyze: normal؛ phase2_plots.make_plots؛ توزیع دو سنجه و تقریب نرمال</td>
+<td>figures/p2_02_mri_normal.png</td>
+<td>کامل؛ خروجی و اجرای نوتبوک کنترل شد</td>
+</tr>
+<tr>
+<td>G7</td>
+<td>امید و دو واریانس</td>
+<td>۱۰</td>
+<td>src/phase2_analysis.py: summary و کنترل ممان‌های PMF؛ امید و واریانس</td>
+<td>tables/p2_07_distributions.csv</td>
+<td>کامل؛ خروجی و اجرای نوتبوک کنترل شد</td>
+</tr>
+<tr>
+<td>G8</td>
+<td>دو سنجه و کوواریانس</td>
+<td>۱۱ و ۱۱–۱</td>
+<td>src/phase2_analysis.py: covariance_row و تجزیهٔ within/between؛ کوواریانس</td>
+<td>figures/p2_04_covariance.png</td>
+<td>کامل؛ خروجی و اجرای نوتبوک کنترل شد</td>
+</tr>
+<tr>
+<td>G9</td>
+<td>بیز</td>
+<td>۱۲</td>
+<td>src/phase2_analysis.py: analyze: هویت بیز و احتمال کل؛ بیز</td>
+<td>tables/p2_05_probabilities.csv</td>
+<td>کامل؛ خروجی و اجرای نوتبوک کنترل شد</td>
+</tr>
+<tr>
+<td>C1</td>
+<td>وضعیت شناختی با شرط دو گروه MRI</td>
+<td>۵ و ۶</td>
+<td>src/phase2_analysis.py: analyze: status_cells و prob_rows؛ احتمال حاشیه‌ای، مشترک و شرطی</td>
+<td>tables/p2_06_status_by_mri.csv</td>
+<td>کامل؛ خروجی و اجرای نوتبوک کنترل شد</td>
+</tr>
+<tr>
+<td>C2</td>
+<td>توزیع شناخت و MRI</td>
+<td>۸ و ۹</td>
+<td>src/phase2_analysis.py: summary؛ group_summaries؛ pmf؛ توزیع دو سنجه و تقریب نرمال</td>
+<td>tables/p2_08_distributions_by_group.csv</td>
+<td>کامل؛ خروجی و اجرای نوتبوک کنترل شد</td>
+</tr>
+<tr>
+<td>C3</td>
+<td>احتمال مشترک UDS و MRI</td>
+<td>۴ تا ۶</td>
+<td>src/phase2_analysis.py: analyze: merge و contingency؛ احتمال حاشیه‌ای، مشترک و شرطی</td>
+<td>tables/p2_04_contingency.csv</td>
+<td>کامل؛ خروجی و اجرای نوتبوک کنترل شد</td>
+</tr>
+<tr>
+<td>C4</td>
+<td>کوواریانس دو وجه</td>
+<td>۱۱ و ۱۱–۱</td>
+<td>src/phase2_analysis.py: covariance_row و independent_check؛ کوواریانس</td>
+<td>tables/p2_11_covariance.csv</td>
+<td>کامل؛ خروجی و اجرای نوتبوک کنترل شد</td>
+</tr>
+<tr>
+<td>C5</td>
+<td>کنترل مراجعه‌های تکراری</td>
+<td>۲ و ۳</td>
+<td>src/phase2_analysis.py: analyze: یکتایی و validate=one_to_one؛ ساختار و مراجعه‌های تکراری</td>
+<td>tables/p2_02_flow.csv</td>
+<td>کامل؛ خروجی و اجرای نوتبوک کنترل شد</td>
+</tr>
+</tbody>
+</table>
+<h2>محدودیت‌های مستند</h2>
+<ul>
+<li><strong>G1:</strong> آستانهٔ چارکی اکتشافی است.</li>
+<li><strong>G2:</strong> مخرج اصلی ثابت است.</li>
+<li><strong>G3:</strong> مخرج صفر تعریف‌نشده ثبت می‌شود.</li>
+<li><strong>G4:</strong> مقایسهٔ تجربی؛ بدون آزمون رسمی.</li>
+<li><strong>G5:</strong> فرض استقلال و احتمال ثابت برای افراد فرضی است.</li>
+<li><strong>G6:</strong> دنبالهٔ پایین با نرمال انحراف دارد.</li>
+<li><strong>G7:</strong> مخرج‌های N و N−۱ تفکیک شده‌اند.</li>
+<li><strong>G8:</strong> گروه کوچک برای تفسیر جداگانه کافی نیست.</li>
+<li><strong>G9:</strong> احتمال تجربی؛ فاقد اعتبار تشخیصی.</li>
+<li><strong>C1:</strong> گروه B و متمم B از MRI تعریف شده‌اند.</li>
+<li><strong>C2:</strong> گمشدگی و IQR جدا ثبت شده‌اند.</li>
+<li><strong>C3:</strong> A از UDS؛ B از MRI است.</li>
+<li><strong>C4:</strong> بدون تفسیر علّی یا استنباط همبستگی.</li>
+<li><strong>C5:</strong> یک رکورد موجود برای هر فرد؛ شمار تاریخی و انطباق زمانی نامعلوم.</li>
+</ul></body></html>
